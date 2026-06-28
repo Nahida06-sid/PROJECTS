@@ -77,9 +77,9 @@ body{
     margin:5px;
     border-radius:15px;
     font-size:14px;
-}
+}/**to create a hover effect on the skills   pseudo class **/
 .skill:hover{
-    transform:scale(1.1);
+    transform:scale(1.1);/**to increase the size of the skill on hover**/
 }
 .profile-pic{
     width:150px;
