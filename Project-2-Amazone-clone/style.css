@@ -69,8 +69,8 @@ margin-left: 3px;
 .search-icon{
     width: 45px;
     display:flex;/**to display in same line**/
-    justify-content: center;/**horizontally centre**/
-    align-items: center;/**vertically centre**/
+    justify-content: center;/**horizontally center**/
+    align-items: center;/**vertically center**/
     font-size: 1.2rem;
     background-color: #febd68;
     color: #0f1111;
