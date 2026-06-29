@@ -22,7 +22,7 @@ const user = {
         password: password
     };
 
-    localStorage.setItem("user", JSON.stringify(user));
+    localStorage.setItem("user", JSON.stringify(user));//Converts the JavaScript object into a string.
 
     alert("Registration Successful!");
 

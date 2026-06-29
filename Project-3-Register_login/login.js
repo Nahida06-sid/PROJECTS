@@ -2,13 +2,13 @@ const loginForm = document.getElementById("loginForm");
 
 loginForm.addEventListener("submit", function(event) {
 
-    event.preventDefault();
+    event.preventDefault();// Prevent form submission
 
     console.log("Login Clicked");
     const email = document.getElementById("email").value;
 const password = document.getElementById("password").value;
 
-const user = JSON.parse(localStorage.getItem("user"));
+const user = JSON.parse(localStorage.getItem("user"));// Retrieve user data from local storage,converts the string back into a JavaScript object.
 
     if (user && user.email === email && user.password === password) {
         alert("Login Successful!");
