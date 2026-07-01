@@ -26,6 +26,6 @@ const user = {
 
     alert("Registration Successful!");
 
-    window.location.href = "index.html";
+    window.location.href = "login.html";
 
 });
